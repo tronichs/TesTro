@@ -7,15 +7,161 @@
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.2.0.js"></script>
 </head> 
-<body> 
+<body>
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>Tronic Haholongan Siregar</h1>
+            </div>
+            <div data-role="content">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <h3>Telkomsel Profile</h3>
+                        <ul data-role="listview" data-inset="true">
+                            <li data-theme="a">78151</li>
+                            <li data-theme="a">Network Planning Integration</li>
+                            <li data-theme="a">29-Nov-2004</li>
+                        </ul>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="div-widget"></div>
+                        <img src="images/profile.jpg" width="200" style="display: block; margin: auto 0px auto auto">
+                    </div>
+                </div>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h1>Education</h1>
+                        <p>Institut Teknologi Bandung</p>
+                        <p>Bachelor of Science</p>
+                        <p>Telecomunication</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Trainings</h1>
+                        <ul data-role="listview" data-inset="true">
+                            <li>List Item</li>
+                            <li>List Item</li>
+                            <li>List Item</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h1>Skills</h1>
+                        <p>A little bit of Drupal, php, MySQL, C++, HTML5, jQuery, PhoneGap, or any language
+                            or framework in need</p>
+                        <p>A lot of interpersonal skills learnt and earned from:</p>
+                        <p>Activities in school &amp; university organizations &amp; committees</p>
+                        <p>Internal interactions between directorates &amp; communities within Telkomsel</p>
+                        <p>External relations with the most complete &amp; complex network vendors in Kalimantan,
+                            corporate customers, government, and communities</p>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" class="ui-btn-active">Basic</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2">Experience</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page3">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Tronic Haholongan Siregar</h1>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible-set"></div>
+                <div data-role="collapsible" data-collapsed="false">
+                    <h1>Employment History</h1>
+                    <ul data-role="listview" data-inset="false">
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                    </ul>
+                </div>
+                <div data-role="collapsible" data-collapsed="false">
+                    <h1>Career History</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                    </ul>
+                </div>
+                <div data-role="collapsible" data-collapsed="false">
+                    <h1>Organizations &amp; Committees</h1>
+                    <ul data-role="listview" data-inset="true">
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1">Basic</a>
+                        </li>
+                        <li>
+                            <a data-role="button" class="ui-btn-active">Experience</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page3">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page3">
+            <div data-role="header">
+                <h1>Tronic Haholongan Siregar</h1>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible-set"></div>
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h1>SmartMobile</h1>
+                        <img src="images/SmartMobile.jpg" width="400">
+                        <p>Smart Mobile is a mobile application developed by me to access performance statistics
+                            and parameters of cellular network such as traffic, blocking, CSSR, TCH available,
+                            etc. With this application, the performance of cellular networks can be accessed
+                            anywhere and anytime. This application can be run on mobile devices with Windows
+                            Mobile operating system.</p>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h1>iTest</h1>
+                        <img src="images/iTest.jpg" width="400">
+                        <p>iTest stands for iPhone Telkomsel Enduser Test is a project to measure end user
+                            experience level in data using iPhone</p>
+                    </div>
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h1>Sysinfo3D</h1>
+                        <img src="images/Sysinfo3D.jpg" width="400">
+                        <p>Sites database visualization in 3D developed by me using popular mapping platform:
+                            Google Earth. Using this popular platform sites database could be accessed easily
+                            and interactive by non technical departments</p>
+                    </div>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="#page1">Basic</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="#page2">Experience</a>
+                        </li>
+                        <li>
+                            <a data-role="button" class="ui-btn-active">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
 
-<<ul data-role="listview" data-inset="true" data-filter="true">
-	<li><a href="#">Acura</a></li>
-	<li><a href="#">Audi</a></li>
-	<li><a href="#">BMW</a></li>
-	<li><a href="#">Cadillac</a></li>
-	<li><a href="#">Ferrari</a></li>
-</ul>
-
-</body>
 </html>
