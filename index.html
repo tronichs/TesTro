@@ -8,14 +8,13 @@
 	<script src="js/jquery.mobile-1.2.0.js"></script>
 </head> 
 <body>
-        <div data-role="page" id="page1">
-            <div data-role="header">
-                <h1>Tronic Haholongan Siregar</h1>
+        <div data-role="page" id="page1" data-title="Basic">
+            <div data-role="header" data-id="kepala" data-position="fixed">
+                <h1>Tronic H Siregar</h1>
             </div>
             <div data-role="content">
                 <div class="ui-grid-a">
                     <div class="ui-block-a">
-                        <h3>Telkomsel Profile</h3>
                         <ul data-role="listview" data-inset="true">
                             <li data-theme="a">78151</li>
                             <li data-theme="a">Network Planning Integration</li>
@@ -28,21 +27,24 @@
                     </div>
                 </div>
                 <div data-role="collapsible-set">
-                    <div data-role="collapsible">
+                    <div data-role="collapsible" data-content-theme="d">
                         <h1>Education</h1>
                         <p>Institut Teknologi Bandung</p>
                         <p>Bachelor of Science</p>
                         <p>Telecomunication</p>
                     </div>
-                    <div data-role="collapsible">
+                    <div data-role="collapsible" data-content-theme="d">
                         <h1>Trainings</h1>
-                        <ul data-role="listview" data-inset="true">
-                            <li>List Item</li>
-                            <li>List Item</li>
-                            <li>List Item</li>
+                        <ul data-role="listview" data-inset="false">
+                            <li>1998 Basic Management Training (KKMB)</li>
+							<li>2000 E-Commerce Business and Technology (UNPAR)</li>
+                            <li>2001 IT for Nation’s Education (MIR)</li>
+                            <li>2001 E-Business Integration (LSIK TI ITB)</li>
+							<li>2007 Half Day Sharing Session "Blink-Creative Thingking"</li>
+							<li>2012 Knowledge Festival "Let's Talk DNA"</li>
                         </ul>
                     </div>
-                    <div data-role="collapsible" data-collapsed="false">
+                    <div data-role="collapsible" data-collapsed="false" data-content-theme="d">
                         <h1>Skills</h1>
                         <p>A little bit of Drupal, php, MySQL, C++, HTML5, jQuery, PhoneGap, or any language
                             or framework in need</p>
@@ -54,109 +56,110 @@
                     </div>
                 </div>
             </div>
-            <div data-role="footer">
+            <div data-role="footer" data-id="kaki" data-position="fixed">
                 <div data-role="navbar">
                     <ul>
                         <li>
-                            <a data-role="button" class="ui-btn-active">Basic</a>
+                            <a data-role="button" href="#page1" class="ui-btn-active ui-state-persist">Basic</a>
                         </li>
                         <li>
-                            <a data-role="button" href="#page2">Experience</a>
+                            <a data-role="button" href="#page2" data-transition="none">Experience</a>
                         </li>
                         <li>
-                            <a data-role="button" href="#page3">Projects</a>
+                            <a data-role="button" href="#page3" data-transition="none">Projects</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div data-role="page" id="page2">
-            <div data-role="header">
-                <h1>Tronic Haholongan Siregar</h1>
+        <div data-role="page" id="page2" data-title="Experience">
+            <div data-role="header" data-id="kepala" data-position="fixed">
+                <h1>Tronic H Siregar</h1>
             </div>
             <div data-role="content">
-                <div data-role="collapsible-set"></div>
-                <div data-role="collapsible" data-collapsed="false">
-                    <h1>Employment History</h1>
+                <div data-role="collapsible-set">
+                <div data-role="collapsible" data-content-theme="d">
+                    <h1>Previous Employment</h1>
                     <ul data-role="listview" data-inset="false">
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
+                        <li>Purchasing Engineer, PT. Samsung Electronic Indonesia</li>
+                        <li>Junior Fixed Network Planning Engineer, PT. Indosat </li>
                     </ul>
                 </div>
-                <div data-role="collapsible" data-collapsed="false">
-                    <h1>Career History</h1>
-                    <ul data-role="listview" data-inset="true">
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
-                    </ul>
-                </div>
-                <div data-role="collapsible" data-collapsed="false">
+                <div data-role="collapsible" data-content-theme="d">
                     <h1>Organizations &amp; Committees</h1>
-                    <ul data-role="listview" data-inset="true">
-                        <li>List Item</li>
-                        <li>List Item</li>
-                        <li>List Item</li>
+                    <ul data-role="listview" data-inset="false">
+                        <li>Waka ROHIS, OSIS SMAN 28</li>
+                        <li>Public Relation Staff, Stock Market and Economy Studies Group (KSEP) ITB</li>
+                        <li>Head of Communication Center Division, Students Welfare Cooperative (Kokesma ITB)</li>
                     </ul>
                 </div>
+				<div data-role="collapsible" data-collapsed="false" data-content-theme="d">
+                    <h1>Career History</h1>
+                    <ul data-role="listview" data-inset="false">
+                        <li>RAE West Java & Kalimantan. Communicate, collaborate, interact, negotiate, engage and manage with almost all Telkomsel network vendors because West Java & Kalimantan was the most complete & complex network in Telkomsel where all BTS vendors have or had foot print in the regions.</li>
+                        <li>Liaison Officer RAE Kalimantan. Interact with all departments in Kalimantan region to make sure the billion dollars network deployment program was delivered on time. Maintain relationship to corporate customer to accommodate their new site and network upgrade requirements. Lobby government and persuade community to issue permit and give permission to built tower and install BTS in the most favorable location to Telkomsel.</li>
+                        <li>Engineer bidang Network Planning Integration. Integrated end to end network planning require connection and understanding not just to all network system planning group but also to all groups from all directorate in Telkomsel, whether in Head Quarter, Areas, or Regions to make sure end to end network capacity requirements will be fulfilled.</li>
+                    </ul>
+                </div>
+				</div>
             </div>
-            <div data-role="footer">
+            <div data-role="footer" data-id="kaki" data-position="fixed">
                 <div data-role="navbar">
                     <ul>
                         <li>
-                            <a data-role="button" href="#page1">Basic</a>
+                            <a data-role="button" href="#page1" data-transition="none">Basic</a>
                         </li>
                         <li>
-                            <a data-role="button" class="ui-btn-active">Experience</a>
+                            <a data-role="button" href="#page2" class="ui-btn-active ui-state-persist">Experience</a>
                         </li>
                         <li>
-                            <a data-role="button" href="#page3">Projects</a>
+                            <a data-role="button" href="#page3" data-transition="none">Projects</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div data-role="page" id="page3">
-            <div data-role="header">
-                <h1>Tronic Haholongan Siregar</h1>
+        <div data-role="page" id="page3" data-title="Projects">
+            <div data-role="header" data-id="kepala" data-position="fixed">
+                <h1>Tronic H Siregar</h1>
             </div>
             <div data-role="content">
-                <div data-role="collapsible-set"></div>
-                    <div data-role="collapsible" data-collapsed="false">
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible" data-content-theme="d">
                         <h1>SmartMobile</h1>
-                        <img src="images/SmartMobile.jpg" width="400">
-                        <p>Smart Mobile is a mobile application developed by me to access performance statistics
+                        <img src="images/SmartMobile.jpg" width="300">
+                        <p>Smart Mobile is a mobile application to access performance statistics
                             and parameters of cellular network such as traffic, blocking, CSSR, TCH available,
                             etc. With this application, the performance of cellular networks can be accessed
                             anywhere and anytime. This application can be run on mobile devices with Windows
                             Mobile operating system.</p>
                     </div>
-                    <div data-role="collapsible" data-collapsed="false">
+                    <div data-role="collapsible" data-collapsed="false" data-content-theme="d">
                         <h1>iTest</h1>
-                        <img src="images/iTest.jpg" width="400">
+                        <img src="images/iTest.jpg" width="300">
                         <p>iTest stands for iPhone Telkomsel Enduser Test is a project to measure end user
-                            experience level in data using iPhone</p>
+                            experience level in data using iPhone by using available applications in  AppStore. This project was presented in RAPIM 2010.</p>
                     </div>
-                    <div data-role="collapsible" data-collapsed="false">
+                    <div data-role="collapsible" data-content-theme="d">
                         <h1>Sysinfo3D</h1>
-                        <img src="images/Sysinfo3D.jpg" width="400">
+                        <img src="images/Sysinfo3D.jpg" width="300">
                         <p>Sites database visualization in 3D developed by me using popular mapping platform:
                             Google Earth. Using this popular platform sites database could be accessed easily
                             and interactive by non technical departments</p>
                     </div>
+				</div>
             </div>
-            <div data-role="footer">
+            <div data-role="footer" data-id="kaki" data-position="fixed">
                 <div data-role="navbar">
                     <ul>
                         <li>
-                            <a data-role="button" href="#page1">Basic</a>
+                            <a data-role="button" href="#page1" data-transition="none">Basic</a>
                         </li>
                         <li>
-                            <a data-role="button" href="#page2">Experience</a>
+                            <a data-role="button" href="#page2" data-transition="none">Experience</a>
                         </li>
                         <li>
-                            <a data-role="button" class="ui-btn-active">Projects</a>
+                            <a data-role="button" href="#page3" class="ui-btn-active ui-state-persist">Projects</a>
                         </li>
                     </ul>
                 </div>
